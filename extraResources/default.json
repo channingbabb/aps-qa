@@ -1,0 +1,81 @@
+{
+    "all": [
+        {
+            "name": "Google Chrome",
+            "slug": "google-chrome",
+            "description": "Google Chrome is a web browser",
+            "launch": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/2048px-Google_Chrome_icon_%28September_2014%29.svg.png"
+        },
+        {
+            "name": "File Explorer",
+            "slug": "file-explorer",
+            "description": "Browse files on your computers.",
+            "launch": "C:\\Windows\\explorer.exe",
+            "image": "https://winaero.com/blog/wp-content/uploads/2018/12/file-explorer-folder-libraries-icon-18298.png"
+        },
+        {
+            "name": "Box Drive",
+            "slug": "box-drive",
+            "description": "Box Drive allows you to access your Box files from your computer.",
+            "launch": "C:\\Program Files\\Box\\Box\\box.exe",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Box%2C_Inc._logo.svg/1200px-Box%2C_Inc._logo.svg.png"
+        },
+        {
+            "name": "Teams",
+            "slug": "teams",
+            "description": "Microsoft Teams.",
+            "launch": "C:\\Users\\%USERNAME%\\AppData\\Local\\Microsoft\\Teams\\current\\Teams.exe",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+        },
+        {
+            "name": "Outlook",
+            "slug": "outlook",
+            "description": "Microsoft Outlook.",
+            "launch": "C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+        },
+        {
+            "name": "Word",
+            "slug": "word",
+            "description": "Microsoft Word.",
+            "launch": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD",
+            "image": "https://i.imgur.com/DoPJm2a.png"
+        },
+        {
+            "name": "Excel",
+            "slug": "excel",
+            "description": "Microsoft Excel.",
+            "launch": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"
+        },
+        {
+            "name": "PowerPoint",
+            "slug": "powerpoint",
+            "description": "Microsoft PowerPoint.",
+            "launch": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png"
+        },
+        {
+            "name": "OneNote",
+            "slug": "onenote",
+            "description": "Microsoft OneNote.",
+            "launch": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ONENOTE.EXE",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png"
+        },
+        {
+            "name": "TeamViewer QS",
+            "slug": "teamviewerqs",
+            "description": "TeamViewerQS",
+            "launch": "C:\\Program Files (x86)\\Common Files\\TeamViewer QS\\TeamViewer- QuickSupport.exe",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/TeamViewer_Logo_Icon_Only.svg"
+        },
+        {
+            "name": "Foxit Phantom",
+            "slug": "foxit-phantom",
+            "description": "Foxit Phantom",
+            "launch": "C:\\Program Files (x86)\\Foxit Software\\Foxit PhantomPDF\\FoxitPhantomPDF.exe",
+            "image": "https://www.foxit.com/static/company/images/icons/phantompdf.png"
+        }
+    ]
+}

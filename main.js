@@ -4,15 +4,8 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const url = require('url')
+const AutoLaunch = require('auto-launch');
 
-const { Notification } = require('electron')
-
-const NOTIFICATION_TITLE = 'Basic Notification'
-const NOTIFICATION_BODY = 'Notification from the Main process'
-
-function showNotification () {
-  new Notification({ title: NOTIFICATION_TITLE, body: NOTIFICATION_BODY }).show()
-}
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -44,8 +37,11 @@ function createWindow() {
     show: false,
     webPreferences: {
       nodeIntegration: true,
-      contextIsolation: false
-    }
+      contextIsolation: false,
+      enableRemoteModule: true ,
+    },
+    // frame: false,
+    icon: 'src/assets/images/icon.png'
   })
 
   // and load the index.html of the app.
@@ -61,7 +57,7 @@ function createWindow() {
   } else {
     indexPath = url.format({
       protocol: 'file:',
-      pathname: path.join(__dirname, 'dist', 'index.html'),
+      pathname: path.join(__dirname, 'build', 'index.html'),
       slashes: true
     })
   }
@@ -95,7 +91,7 @@ function createWindow() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on('ready', createWindow, showNotification)
+app.on('ready', createWindow)
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
   // On macOS it is common for applications and their menu bar
