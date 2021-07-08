@@ -42,9 +42,11 @@
     "electron-titlebar": "0.0.3",
     "electron-titlebar-windows": "^3.0.0",
     "fullname": "^4.0.1",
+    "node-powershell": "^4.0.0",
     "postcss": "^8.2.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal": "^3.14.3",
     "username": "^5.1.0"
   },
   "devDependencies": {
