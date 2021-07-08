@@ -1,7 +1,7 @@
 {
   "name": "aps-qa",
   "productName": "APS Quick Access",
-  "version": "1.20.0",
+  "version": "1.21.0",
   "description": "APS Quick Access.",
   "license": "MIT",
   "private": false,

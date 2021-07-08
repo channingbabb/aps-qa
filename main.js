@@ -22,6 +22,17 @@ if (process.env.NODE_ENV !== undefined && process.env.NODE_ENV === 'development'
   dev = true
 }
 
+var autoLauncher = new AutoLaunch({
+    name: "apsqa"
+});
+// Checking if autoLaunch is enabled, if not then enabling it.
+autoLauncher.isEnabled().then(function(isEnabled) {
+  if (isEnabled) return;
+   autoLauncher.enable();
+}).catch(function (err) {
+  throw err;
+});
+ 
 // Temporary fix broken high-dpi scale factor on Windows (125% scaling)
 // info: https://github.com/electron/electron/issues/9691
 if (process.platform === 'win32') {
@@ -32,8 +43,8 @@ if (process.platform === 'win32') {
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1024,
-    height: 768,
+    width: 1000,
+    height: 900,
     show: false,
     webPreferences: {
       nodeIntegration: true,
