@@ -1,7 +1,7 @@
 
 # APS Quick Access
 
-I will no longer be making updates to this project, this project didn't fulfill too many company needs.
+I will no longer be making updates to this project, this project didn't fulfill too many company needs.  Can be used as a boilerplate as a future Electron project, though.
 
 ## Installation
 
